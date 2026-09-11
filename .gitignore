@@ -241,3 +241,20 @@ lista_discos.dat
 
 # Archivos de caché del notebook y checkpoints de guardado automático
 .ipynb_checkpoints/
+
+# ==============================================================================
+# --- Resultados del Análisis Termodinámico y Gráficos Científicos ---
+# ==============================================================================
+# Evita subir los gráficos pesados en alta resolución que guardes localmente.
+# (Se generan en formato de matriz de subplots 4x5 de alta densidad de puntos)
+*.png
+*.pdf
+*.svg
+*.eps
+*.jpg
+*.jpeg
+
+# En caso de que decidas exportar los nuevos arrays podados (U <= 10^2.78)
+# a un nuevo archivo comprimido intermedio para no recalcular
+*cut*.npz
+*filtered*.npz
