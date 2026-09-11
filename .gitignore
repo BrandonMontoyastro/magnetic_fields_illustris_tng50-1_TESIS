@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==============================================================================
+# --- Archivos Temporales e Hidrodinámicos de IllustrisTNG ---
+# ==============================================================================
+# Descargas binarias crudas de la API (Merger Trees y Cutouts de subhalos)
+tree.hdf5
+cutout.hdf5
+*.hdf5
+*.h5
+
+# Archivos de índices de entrada de galaxias de disco
+lista_discos.dat
+*.dat
+*.txt
+
+# ==============================================================================
+# --- Datasets Finales Comprimidos Extraídos ---
+# ==============================================================================
+# Bloquea los binarios serializados de NumPy de alta densidad (.npz)
+# Nota: Son masivos porque contienen arrays estructurados de 20 snapshots
+*.npz
+*.npy
+
+# Archivos de caché del notebook y checkpoints de guardado automático
+.ipynb_checkpoints/
